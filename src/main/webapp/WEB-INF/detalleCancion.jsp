@@ -14,6 +14,7 @@
     <p>Álbum: ${cancion.album}</p>
     <p>Género: ${cancion.genero}</p>
     <p>Idioma: ${cancion.idioma}</p>
-    <a href="/canciones">Volver a lista de canciones</a>
+    <a href="/canciones">Volver a la lista de canciones</a>
+  <form action="/canciones/formulario/editar/${idCancion}"><button>Editar Canción</button></form>
 </body>
 </html>
