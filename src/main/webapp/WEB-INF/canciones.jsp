@@ -22,5 +22,10 @@
                 <td><a href="/canciones/detalle/${cancion.id}">Detalle</a></td>
             </tr>
         </c:forEach>
+            <div >
+		<form action="/canciones/formulario/agregar/{idCancion}" method="GET">
+			<button>Agregar Cancion</button>
+		</form>
+	</div>
 </body>
 </html>
