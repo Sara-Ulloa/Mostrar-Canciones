@@ -27,8 +27,7 @@
 		<form action="/canciones/formulario/agregar/{idCancion}" method="GET">
 			<button>Agregar Cancion</button>
 		</form>
-		
-		</form>
+		<a href="/artistas">Ir a artistas</a>
 	</div>
 </body>
 </html>

@@ -19,7 +19,9 @@
 					</div>
 					<div>
 						<form:label path="artista"> Artista: </form:label>
-						<form:input path="artista" />	
+						<form:select path="artista.id">
+                			<form:options items="${Artistas}" itemValue="id" itemLabel="nombre" />
+            			</form:select>
 						<form:errors path="artista" /> 
 					</div>
 					<div>
